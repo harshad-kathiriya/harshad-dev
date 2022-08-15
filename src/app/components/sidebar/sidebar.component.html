@@ -1,0 +1,47 @@
+<div class="sidebar bg-dark">
+    <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+        <img class="w-100 img-fluid mb-1" src="../assets/images/harshad_kathiriya.jpg"  alt="Image">
+        <h2 class="mt-2">Harshad Kathiriya</h2>
+        <div class="mb-3 pb-3 sub-caption">
+            <div class="typed-text ">Full Stack Developer</div>
+        </div>
+        <div class="mb-3 menu-items pb-3" >
+            <div class="navbar-nav">
+                <a href="#aboutme" class="nav-item nav-link" 
+                    [ngClass]="isActiveNav == 'aboutus' ? 'active': ''" 
+                    (click)="navClick('aboutus')"
+                    >About Me</a>
+                <a href="#skills" class="nav-item nav-link" 
+                    [ngClass]="isActiveNav == 'skills' ? 'active': ''" 
+                    (click)="navClick('skills')">Skills</a>
+                <a href="#experiance" class="nav-item nav-link"
+                    [ngClass]="isActiveNav == 'experiance' ? 'active': ''" 
+                    (click)="navClick('experiance')">Experiance</a>
+                <a href="#education" class="nav-item nav-link"
+                    [ngClass]="isActiveNav == 'education' ? 'active': ''" 
+                    (click)="navClick('education')">Education</a>
+                <!-- <a href="#services" class="nav-item nav-link"
+                    [ngClass]="isActiveNav == 'services' ? 'active': ''" 
+                    (click)="navClick('services')">Services</a> -->
+                <a href="#certification" class="nav-item nav-link"
+                    [ngClass]="isActiveNav == 'certification' ? 'active': ''" 
+                    (click)="navClick('certification')">Certification</a>                    
+                <a href="#contact" class="nav-item nav-link"
+                    [ngClass]="isActiveNav == 'contactme' ? 'active': ''" 
+                    (click)="navClick('contactme')">Contact Me</a>
+            </div>
+        </div>    
+        <div class="d-flex justify-content-center mt-auto mb-3">
+            <!-- <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a> -->
+            <!-- <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
+            <a class="mx-2" target="blank" href="https://in.linkedin.com/in/harshad-kathiriya"><i class="fab fa-linkedin-in"></i></a>
+            <!-- <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a> -->
+            <!-- <a class="mx-2" target="blank" href="https://www.youtube.com/channel/UCYePttqIlaey8eiVt__bHAg"><i class="fab fa-youtube"></i></a>  -->
+            <a class="mx-2" target="blank" href="https://github.com/harshad-kathiriya"><i class="fab fa-github"></i></a>
+           
+        </div>
+        <div class="justify-content-between">
+            <a target="blank" href="https://firebasestorage.googleapis.com/v0/b/harshad-dev.appspot.com/o/Harshad-Kathiriya-Resume.pdf?alt=media&token=6c29e5a9-52ff-407f-a89e-1ecce0fa2b8a" class="btn btn-outline-primary">Download CV</a>
+        </div>
+    </div>  
+</div>

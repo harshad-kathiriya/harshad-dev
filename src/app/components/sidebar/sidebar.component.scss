@@ -1,0 +1,30 @@
+@import '../../../scss/styles.scss';
+
+.sidebar {    
+   
+   .menu-items {
+       border-bottom: 1px solid grey;
+    .navbar-nav {
+        a {
+            color: rgb(221, 220, 220);
+        }
+        .nav-link {
+            padding: 0.2rem 0 0 0;
+        }
+        .active {
+            color: $primary;
+        }
+   }
+   }
+   .sub-caption {
+       border-bottom: 1px solid grey;
+   }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        .menu-items {
+            display: none;
+        }
+    }
+}
